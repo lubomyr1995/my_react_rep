@@ -1,0 +1,7 @@
+.productsBox {
+    background: #6012a9;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+}

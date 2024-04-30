@@ -1,0 +1,14 @@
+.productBox {
+    background: #c297ea;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding: 5px;
+    width: 40%;
+    text-align: center;
+}
+
+.img {
+    border-radius: 10px;
+    max-height: 200px;
+}
