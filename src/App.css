@@ -1,0 +1,12 @@
+.flex {
+    width: 100%;
+    display: flex;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w60 {
+    width: 60%;
+}
