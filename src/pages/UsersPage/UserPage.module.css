@@ -1,0 +1,9 @@
+.DividedBlock {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+
+.w35{
+    min-width: 35%;
+}

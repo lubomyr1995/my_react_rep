@@ -5,6 +5,6 @@ import {urls} from "../constants/urls.ts";
 
 const userService = {
     getAll: (): IRes<IUser[]> => apiService.get(urls.users),
-    getById: (_id: number): IRes<IUser> => apiService.get(urls.users + `/${_id}`)
+    getById: (_id: string): IRes<IUser> => apiService.get(urls.users + `/${_id}`)
 };
 export default userService;

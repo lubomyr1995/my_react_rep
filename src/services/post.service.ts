@@ -5,7 +5,7 @@ import {urls} from "../constants/urls.ts";
 
 const postService = {
     getAll: (): IRes<IPost[]> => apiService.get(urls.posts),
-    getPostsByUserId: (userId: number): IRes<IPost[]> => apiService.get(`${urls.users}/${userId}${urls.posts}`)
+    getPostsByUserId: (userId: string): IRes<IPost[]> => apiService.get(`${urls.users}/${userId}${urls.posts}`)
 };
 
 export default postService;
