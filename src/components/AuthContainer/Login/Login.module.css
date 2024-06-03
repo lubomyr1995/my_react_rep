@@ -1,0 +1,13 @@
+
+.FormContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,34 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    background-color: black;
+}
+
+.MainBlock > a {
+    text-decoration: none;
+    color: azure;
+    font-size: 32px;
+    margin: 0 15px;
+}
+
+.LoginBlock > a {
+    text-decoration: none;
+    color: azure;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.MainBlock > a:hover, .LoginBlock > a:hover {
+    color: #550ab0;
+}
+
+.MainBlock > a[  class='active'  ] {
+    color: #550ab0;
+}
+
+.User {
+    color: azure;
+    margin-right: 20px;
+}
