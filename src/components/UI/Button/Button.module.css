@@ -1,0 +1,24 @@
+.Button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Button:hover {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px 1px black;
+    color: black;
+}
+
+.Button:disabled {
+    background-color: grey;
+    color: darkgrey;
+    cursor: not-allowed;
+}

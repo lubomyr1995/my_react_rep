@@ -1,0 +1,62 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    min-height: 60px;
+    background-color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.MainBlock, .LoginBlock {
+    display: flex;
+    align-items: center;
+}
+
+.MainBlock > a, .LoginBlock > a {
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    margin: 0 15px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.MainBlock > a:hover, .LoginBlock > a:hover {
+    color: #550ab0;
+    transform: scale(1.05);
+}
+
+.MainBlock > a[  class='active'  ] {
+    color: #550ab0;
+}
+
+.User {
+    color: azure;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.User b {
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.User b:hover {
+    color: #550ab0;
+}
+
+.User button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff4d4d;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.User button:hover {
+    background-color: #ff1a1a;
+}
